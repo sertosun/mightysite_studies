@@ -1,0 +1,78 @@
+.menubar {
+  display: flex;
+  list-style: none;
+}
+.register_login {
+    display: flex;
+    gap: 0.2rem;
+}
+
+/* header {
+    width: 80%;
+    margin: auto;
+} */
+
+#register_btn , #login_btn {
+    background-color: #0dd26a;
+    padding: 0.8rem 1.6rem;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 250ms;
+    text-align: center;
+}
+
+#register_btn:hover , #login_btn:hover {
+    transform: translateY(-2px);
+    background-color: #1ddb76;
+    color: white;
+}
+
+.menubar_icon {
+    display: none;
+}
+
+.menu_item {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.7rem 1.2rem;
+    cursor: pointer;
+}
+
+/* -------------------------- */
+
+.injury_container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.injury_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left; 
+}
+.macbook {
+    margin-top: 0;
+    transform: translateY(-2rem);
+    z-index: -1;
+}
+
+/* --------------------------- */
+
+.cards_container {
+    display: flex;
+    gap: 4rem;
+}
+
+/* ------------------------- */
+
+.security_content {
+    width: 70%;
+    margin: auto;
+}
+
+.security_icons img {
+    width: 50%;
+}

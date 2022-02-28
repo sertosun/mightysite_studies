@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 , h3 , h4 ,p {
+    margin-bottom: 1.4rem;
+}
+
+p {
+    line-height: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+header {
+    padding: 15px 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menubar {
+    display: none;
+}
+
+.register_login {
+    display: none;
+}
+
+.menubar_icon {
+    font-size: 2rem;
+    color: #0dd26a;
+}
+
+/* -------------------------- */
+
+.injury {
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.injury_content {
+    text-align: center;
+}
+
+#injury_link {
+    background-color: #0dd26a;
+    padding: 0.8rem 2rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+}
+
+.macbook {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+/* ------------------------------ */
+
+.card_sec {
+    padding: 1rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.card_sec_title {
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+}
+
+.card_icon {
+    font-size: 3rem;
+}
+
+.card_content {
+    font-size: .8rem;
+}
+
+.card_btn {
+    text-align: center;
+    background-color: #0dd26a;
+    padding: 0.8rem 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+/* ----------------------------- */
+
+.security_sec {
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.security_title {
+    color: #0dd26a;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.security_content {
+     margin: 1rem;
+     text-align: center;
+     box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1); 
+     padding: 1rem;
+}
+
+.security_icons img{
+    width: 100%;
+}
+
+.security_inline_link {
+    display: inline;
+    color: #0dd26a;
+    text-decoration: underline;
+}
